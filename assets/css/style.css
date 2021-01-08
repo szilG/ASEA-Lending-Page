@@ -1,0 +1,115 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, .6);
+}
+
+.navbar-brand p {
+    height: 2rem;
+    color:  #1EBBA3;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.caption {
+    position: absolute;
+    top: 38%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.caption h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn {
+    border-width: medium;
+    border-radius: 0!important;
+    font-size: 1.1rem!important;
+    padding: .6rem 1.3rem;
+}
+
+/*============= COURSE SECTION =============*/
+
+.col-md-8 {
+    margin: 2rem auto 8rem;
+    padding-top: 2rem;
+}
+
+.col-md-8 h1 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+    color: #505962;
+}
+
+.lead {
+    color: #505962;
+} 
+
+.btn-secondary {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 1rem;
+    border-color: #1EBBA3 !important;
+    background-color: #1EBBA3 !important;
+    color: white;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    border-color: #189582 !important;
+    background-color: #189582 !important;
+    color: white;
+}
+
+.footer a{
+    color: #505962;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .caption h1 {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        padding-bottom: 1.62rem;
+    }
+    .btn {
+        font-size: 1rem!important;
+        padding: .5rem 1rem;
+    }
+    .col-md-8 h1 {
+        font-size: 1.7rem;
+        margin-bottom: 3rem;
+    }
+}
