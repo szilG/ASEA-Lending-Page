@@ -49,7 +49,11 @@ body {
 
 .lead {
     color: #505962;
-} 
+}
+
+strong {
+    color: black;
+}
 
 .btn-secondary {
     border-width: medium;
